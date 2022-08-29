@@ -20,25 +20,40 @@
 
 <body class="text-center">
   
-  <main class="form-signin w-100 mt-5 m-auto">
+  <main class="form-signin w-100 mt-5 m-auto ">
     <form>
-
-      <img src="img/login.png" alt="" class="mb-4" width="30%">
-      <h1 class="h4 mb-3">Inicio de sesión</h1>
-
-      <div class="form-floating mb-4">
-        <input type="email" class="form-control" id="floatingInput" placeholder="nombre@ejemplo.com">
-        <label for="floatingInput">Email</label>
-      </div>
-
-      <div class="form-floating mb-4">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-        <label for="floatingPassword">Contraseña</label>
-      </div>
-
-      <button class="w-100 btn-lg btn-primary" type="submit">Ingresar</button>
-
-    </form>
+      <section class="vh-100">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+              
+                <div class="card-body p-5 text-center">
+                  <img src="img/login.png" alt="" class="mb-4" width="70%">
+                  <h3 class="mb-5">Inicio de sesión</h3>
+      
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="typeEmail">Email</label>
+                    <input type="email" id="typeEmail" class="form-control form-control-lg" placeholder="Email" />
+                    
+                  </div>
+      
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="typePassword">Contraseña</label>
+                    <input type="password" id="typePassword" class="form-control form-control-lg" placeholder="Contraseña" />
+                    
+                  </div>
+    
+      
+                  <button class="btn btn-primary btn-lg btn-block" type="submit">Ingresar</button>
+      
+                  
+      
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>    </form>
   </main>
   
   
